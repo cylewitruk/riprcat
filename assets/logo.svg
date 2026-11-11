@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -24 760 294" role="img" aria-labelledby="title desc">
+  <title id="title">Rip'r'Cat</title>
+  <desc id="desc">A cat peeking over a terminal window running riprcat.</desc>
+  <defs>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#ff6a1f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cat head peeking over the window edge -->
+  <g transform="translate(560 -20)">
+    <path d="M10 96 L8 26 L26 0 L46 22 Q60 19 74 22 L94 0 L112 26 L110 96 Z" fill="url(#fur)"/>
+    <path d="M17 26 L26 9 L37 22 Z" fill="#ff3d7f" opacity="0.75"/>
+    <path d="M103 26 L94 9 L83 22 Z" fill="#ff3d7f" opacity="0.75"/>
+    <g stroke="#c2410c" stroke-width="4" stroke-linecap="round" opacity="0.7">
+      <path d="M60 24 L60 38"/>
+      <path d="M49 26 L51 37"/>
+      <path d="M71 26 L69 37"/>
+    </g>
+    <path d="M28 50 Q40 40 52 52 Q40 57 28 50 Z" fill="#12141b"/>
+    <path d="M92 50 Q80 40 68 52 Q80 57 92 50 Z" fill="#12141b"/>
+    <circle cx="42" cy="50" r="2.6" fill="#2ee6a6"/>
+    <circle cx="78" cy="50" r="2.6" fill="#2ee6a6"/>
+  </g>
+
+  <!-- Terminal window -->
+  <rect x="20" y="62" width="720" height="196" rx="14" fill="#0d1017" stroke="#2a2f3a" stroke-width="2"/>
+  <path d="M20 76 Q20 62 34 62 L726 62 Q740 62 740 76 L740 92 L20 92 Z" fill="#1a1e27"/>
+  <circle cx="44" cy="77" r="6" fill="#ff5f57"/>
+  <circle cx="64" cy="77" r="6" fill="#febc2e"/>
+  <circle cx="84" cy="77" r="6" fill="#28c840"/>
+  <text x="380" y="82" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
+        font-size="13" fill="#6b7080">riprcat — zsh</text>
+
+  <!-- Paws gripping the edge, with fresh scratches -->
+  <g stroke="#ff6a1f" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <path d="M600 78 L604 90"/>
+    <path d="M608 78 L612 90"/>
+    <path d="M616 78 L620 90"/>
+    <path d="M652 78 L656 90"/>
+    <path d="M660 78 L664 90"/>
+    <path d="M668 78 L672 90"/>
+  </g>
+  <g fill="#ff9a3c" stroke="#12141b" stroke-width="2">
+    <rect x="592" y="54" width="34" height="22" rx="11"/>
+    <rect x="646" y="54" width="34" height="22" rx="11"/>
+  </g>
+  <g stroke="#c2410c" stroke-width="2" stroke-linecap="round">
+    <path d="M603 66 L603 75"/>
+    <path d="M615 66 L615 75"/>
+    <path d="M657 66 L657 75"/>
+    <path d="M669 66 L669 75"/>
+  </g>
+
+  <!-- Terminal contents -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+    <text x="44" y="126" font-size="16" fill="#c9ccd6"><tspan fill="#2ee6a6">$</tspan> riprcat https://example.test/archive.tar.zst | tar -x --zstd</text>
+    <text x="40" y="196" font-size="64" font-weight="700" fill="#f5f6fa">rip<tspan fill="#ff6a1f">r</tspan>cat</text>
+    <rect x="315" y="150" width="34" height="52" fill="#2ee6a6" opacity="0.85"/>
+    <text x="44" y="236" font-size="13" fill="#6b7080">riprcat:  42% 12.0 GiB / 28.6 GiB speed=187.3 MiB/s eta=00:01:31 active_chunks=8</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+style_edition = "2024"
+
+# Keep this file compatible with the rustfmt component in rust-toolchain.toml.
+use_small_heuristics = "Max"
+
+max_width = 100
+
+reorder_imports = true
+
+reorder_modules = true
+
+use_field_init_shorthand = true
+
+chain_width = 30
+
+struct_lit_width = 30
